@@ -1,47 +1,49 @@
-const logotext = "JOHN";
+const logotext = "SHOHAN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Md Shohanur Rahman",
+    description: "I’m Md Shohanur Rahman _ data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Shohanur Rahman",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I Code cool responsive websites",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "A passionate Frontend Developer skilled in HTML, CSS, JavaScript, React, Tailwind CSS, DaisyUI, and Firebase Authentication with basic knowledge of MongoDB. I enjoy building clean, user-friendly, and responsive web applications.",
+    your_img_url: "https://i.ibb.co.com/sv2Hq5Xv/Whats-App-Image-2025-01-26-at-20-03-39-72b32198.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: " About my self",
+    aboutme: `Hi, I’m MD. Shohanur Rahman — a passionate Frontend Developer with hands-on experience in HTML, CSS, JavaScript, React, Tailwind CSS, DaisyUI, Firebase Authentication, and basic knowledge of MongoDB.
+I specialize in building clean, responsive, and user-friendly web interfaces with modern frontend frameworks. I enjoy developing dashboards, e-commerce layouts, and subscription-based platforms with a strong focus on performance and smooth user experience.
+I’m always eager to explore new tools, improve my skills, and contribute to real-world projects within a collaborative team environment.`,
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+ 
+//         jobtitle: "Designer of week",
+//         where: "YAdfi",
+//         date: "2020",
+//     },
+//     {
+//         jobtitle: "Designer of week",
+//         where: "Jamalya",
+//         date: "2019",
+//     },
+//     {
+//         jobtitle: "Designer of week",
+//         where: "ALquds",
+//         date: "2019",
+//     },
+// ];
 
 const skills = [{
-        name: "Python",
+        name: "HTML5",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "CSS3",
         value: 85,
     },
     {
@@ -49,84 +51,59 @@ const skills = [{
         value: 80,
     },
     {
+        name: "Tailwind CSS",
+        value: 85,
+    },
+    {
+        name: "Responsive Design",
+        value: 90,
+    },
+    {
         name: "React",
-        value: 60,
+        value: 80,
     },
     {
         name: "Jquery",
-        value: 85,
+        value: 70,
+    },
+    {
+        name: "Firebase Authentication",
+        value: 90,
+    },
+    {
+        name: "MongoDB",
+        value: 50,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
+ 
+//         title: "MERN Stack Developer",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+//     {
+//         title: "Mobile Apps",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+//     {
+//         title: "Wordpress Design",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+// ];
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Subscription-based platform with Firebase Authentication and responsive UI.",
+        link: "https://subscription-box-9.web.app/",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Modern e-commerce style layout built with React and Tailwind CSS.",
+        link: "https://dapper-cat-87c453.netlify.app/",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Responsive website featuring clean UI components and smooth navigation.",
+        link: "http://superb-duckanoo-162341.netlify.app/",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
@@ -136,9 +113,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "xrshohan07@gmail.com",
+    YOUR_FONE: "01725885491",
+    description: "Feel free to get in touch! I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,7 +124,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/Shohan407",
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
@@ -156,9 +133,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
