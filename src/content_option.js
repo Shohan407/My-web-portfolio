@@ -12,7 +12,7 @@ const introdata = {
         third: "I Code cool responsive websites",
     },
     description: "A passionate Frontend Developer skilled in HTML, CSS, JavaScript, React, Tailwind CSS, DaisyUI, and Firebase Authentication with basic knowledge of MongoDB. I enjoy building clean, user-friendly, and responsive web applications.",
-    your_img_url: "https://i.ibb.co.com/sv2Hq5Xv/Whats-App-Image-2025-01-26-at-20-03-39-72b32198.jpg",
+    your_img_url: "shohan.jpg",
 };
 
 const dataabout = {
@@ -91,24 +91,24 @@ const skills = [{
 // ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "slider.png",
         description: "Subscription-based platform with Firebase Authentication and responsive UI.",
         link: "https://subscription-box-9.web.app/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "banner-img-1.png",
         description: "Modern e-commerce style layout built with React and Tailwind CSS.",
         link: "https://dapper-cat-87c453.netlify.app/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "Banner-min.jpg",
         description: "Responsive website featuring clean UI components and smooth navigation.",
         link: "http://superb-duckanoo-162341.netlify.app/",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "image.png",
+        description: "Responsive dashboard built with javascript and Tailwind CSS.",
+        link: "http://sage-twilight-bc49b6.netlify.app",
     },
 ];
 
