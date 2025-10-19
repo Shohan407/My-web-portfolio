@@ -98,7 +98,7 @@ const dataportfolio = [{
     {
         img: "banner-img-1.png",
         description: "Modern e-commerce style layout built with React and Tailwind CSS.",
-        link: "https://dapper-cat-87c453.netlify.app/",
+        link: "http://polite-tapioca-508fec.netlify.app/",
     },
     {
         img: "Banner-min.jpg",
