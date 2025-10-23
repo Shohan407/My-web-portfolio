@@ -74,7 +74,7 @@ const skills = [{
         name: "MongoDB",
         value: 50,
     },
-];
+];  
 
  
 //         title: "MERN Stack Developer",
@@ -93,17 +93,17 @@ const skills = [{
 const dataportfolio = [{
         img: "slider.png",
         description: "Subscription-based platform with Firebase Authentication and responsive UI.",
-        link: "https://subscription-box-9.web.app/",
+        link: "https://subscription-box-9.web.app",
     },
     {
         img: "banner-img-1.png",
         description: "Modern e-commerce style layout built with React and Tailwind CSS.",
-        link: "http://polite-tapioca-508fec.netlify.app/",
+        link: "https://polite-tapioca-508fec.netlify.app",
     },
     {
         img: "Banner-min.jpg",
         description: "Responsive website featuring clean UI components and smooth navigation.",
-        link: "http://superb-duckanoo-162341.netlify.app/",
+        link: "https://magnificent-khapse-0bfe6b.netlify.app",
     },
     {
         img: "image.png",
@@ -116,7 +116,6 @@ const contactConfig = {
     YOUR_EMAIL: "xrshohan07@gmail.com",
     YOUR_FONE: "01725885491",
     description: "Feel free to get in touch! I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
-    // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
